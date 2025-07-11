@@ -64,7 +64,7 @@ nav li a {
   align-items: center;
   padding: 116px 145px ;
 }
-.action-sutitle{
+.action-subtitle{
   font-weight: bold;
   font-size: 42px;
   color: #252432;
@@ -82,4 +82,38 @@ img{
 .action-image {
  max-width: 100%;
   height: auto; 
+}
+
+/* Users Section */
+.users {
+  background:  #e0e7ff;
+  text-align: center;
+  border-radius: 24px;
+  width: 1140px;
+  margin: 116px auto;
+  padding: 100px 150px;
+  justify-content: center;
+  
+}
+.users h3 {
+  margin-bottom: 40px;
+}
+.user-data{
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+}
+.user-data div h2 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+}
+.user-data div p{
+  font-size: 20px;
+  color: #000000;
+  font-weight: 120px;
+  text-align: center;
+  margin-top: auto;
 }
