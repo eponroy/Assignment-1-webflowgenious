@@ -3,6 +3,8 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+
+  /* navbar & banner section  */
 }
 .header-content{
   background-image: url('../Assets/Hero-bg.png');
@@ -37,6 +39,7 @@ nav li a {
     color: white;
     padding: 12px 36px;
     border-radius: 10px;
+    text-decoration: none;
 }
 .btn-primary:hover {
   background: #2bc7cf;
@@ -50,4 +53,33 @@ nav li a {
 .banner-container {
   font-size: 36px;
   margin-bottom: 10px;
+}
+/* Action Section */
+.action{
+  padding: 0 145px;
+}
+.action-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 116px 145px ;
+}
+.action-sutitle{
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+  margin-bottom: 23px;
+}
+.action-text {
+  font-size: 24px;
+  color: #252432;
+  margin-bottom: 35px;
+  
+}
+img{
+  border-radius: 48px ;
+}
+.action-image {
+ max-width: 100%;
+  height: auto; 
 }
