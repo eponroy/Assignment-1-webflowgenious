@@ -74,6 +74,7 @@ nav li a {
 }
 .action-text {
   font-size: 24px;
+  width: 517px;
   color: #252432;
   margin-bottom: 35px;
   
@@ -264,23 +265,32 @@ img{
 }
 
 /* Footer */
-.footer {
+.footer{
   background: #fff;
   padding: 40px 20px;
   text-align: center;
   border-top: 1px solid #eee;
 }
-.footer h2 {
+.footer h1 {
   color: #4f46e5;
+  font-size: 80px;
 }
+.text-footer{
+  color: #8987A1;
+  font-size: 25px;
+}
+
 .footer-links {
   margin-top: 15px;
 }
 .footer-links a {
+  font-size: 20px;
   margin: 0 10px;
-  color: #333;
+  color: #8987A1;
   text-decoration: none;
 }
 .footer-links a:hover {
   text-decoration: underline;
 }
+
+
