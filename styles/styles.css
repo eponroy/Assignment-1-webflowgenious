@@ -51,6 +51,7 @@ nav li a {
   font-size: 65px;
   padding: 80px 20px;
   color: #252432;
+  text-decoration: none;
 }
 .banner-container {
   font-size: 36px;
